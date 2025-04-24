@@ -10,6 +10,14 @@ The dataset includes 1,738 labeled images spread across five categories:
 - Product 4
 - Background
 
+## 📁 Dataset
+
+A sample dataset is included in the repository for demonstration purposes.  
+It contains a small subset of images from the original 5 classes (Product 1–4 and Background) to help test the models and code structure.
+
+> For full-scale training, replace the sample with the complete dataset using the same folder structure.
+
+
 The goal is to classify images accurately into one of these classes using two different model architectures and analyze their strengths and limitations.
 
 ## 🚀 Models Implemented
