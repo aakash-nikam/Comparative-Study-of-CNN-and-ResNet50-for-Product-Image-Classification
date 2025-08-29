@@ -88,6 +88,6 @@ The final report (IEEE format) includes:
 
 ## 📬 Contact
 For questions or collaboration:
-**Your Name**  
+Akash Nikam 
 MSc in Data Analytics, Dublin Business School  
-📧 your.email@example.com
+📧 aakashn3118@gmail.com
