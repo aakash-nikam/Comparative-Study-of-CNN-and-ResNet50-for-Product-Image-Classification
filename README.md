@@ -2,7 +2,7 @@
 
 This repository presents a comparative analysis between two deep learning approaches— a custom-built Convolutional Neural Network (CNN) and a fine-tuned ResNet50 Transfer Learning model— for solving a five-class image classification task.
 
-## 🧾 Overview
+Overview
 The dataset includes 1,738 labeled images spread across five categories:
 - Product 1
 - Product 2
@@ -10,7 +10,7 @@ The dataset includes 1,738 labeled images spread across five categories:
 - Product 4
 - Background
 
-## 📁 Dataset
+Dataset
 
 A sample dataset is included in the repository for demonstration purposes.  
 It contains a small subset of images from the original 5 classes (Product 1–4 and Background) to help test the models and code structure.
@@ -20,22 +20,22 @@ It contains a small subset of images from the original 5 classes (Product 1–4 
 
 The goal is to classify images accurately into one of these classes using two different model architectures and analyze their strengths and limitations.
 
-## 🚀 Models Implemented
+Models Implemented
 
-### 🔹 Custom CNN
+ Custom CNN
 - Three convolutional layers (32, 64, 128 filters)
 - MaxPooling after each Conv layer
 - Dense(128) with ReLU activation
 - Dropout(0.5)
 - Output layer with softmax activation
 
-### 🔹 ResNet50 (Transfer Learning)
+ ResNet50 (Transfer Learning)
 - Pretrained on ImageNet
 - Base layers frozen initially
 - Custom head with GlobalAveragePooling, Dense(128), Dropout, and output layer
 - Fine-tuned by unfreezing top 40 layers
 
-## 🧪 Evaluation Metrics
+ Evaluation Metrics
 - Accuracy
 - Precision
 - Recall
@@ -50,14 +50,14 @@ The goal is to classify images accurately into one of these classes using two di
 | Recall (Product 1)      | 27%      | 37%                    |
 | F1-Score (Weighted Avg) | 0.66     | 0.60                   |
 
-## 🧰 Technologies Used
+ Technologies Used
 - Python
 - TensorFlow / Keras
 - Scikit-learn
 - Matplotlib
 - Jupyter Notebooks
 
-## 📁 Repository Structure
+ Repository Structure
 ```
 .
 ├── cnn_model.py                  # CNN architecture and training script
@@ -70,18 +70,18 @@ The goal is to classify images accurately into one of these classes using two di
 └── README.md
 ```
 
-## 📄 Report
+Report
 The final report (IEEE format) includes:
 - Full methodology
 - Results with figures and tables
 - Model comparison and discussion
 - Future work
 
-## 📌 Highlights
+Highlights
 - Custom CNN achieved higher raw accuracy but overfitted
 - ResNet50 generalized better and handled class imbalance more effectively
 
-## 🔮 Future Improvements
+Future Improvements
 - Add class weighting or SMOTE to handle imbalance
 - Experiment with EfficientNet or Vision Transformers
 - Ensemble CNN and ResNet50 for hybrid performance
